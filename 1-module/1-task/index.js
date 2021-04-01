@@ -1,3 +1,6 @@
 function factorial(n) {
-  // ваш код...
+   let result = 1
+  for (; n!=0 ;)
+    result *= n--;
+  return result;  
 }

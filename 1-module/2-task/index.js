@@ -2,6 +2,7 @@ function print(text) {
   console.log(text);
 }
 
+
 function isValid(name) {
   return !!name && !name.includes(' ') && name.length >= 4;
 }
